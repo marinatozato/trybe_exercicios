@@ -1,0 +1,28 @@
+h1, p, li {
+    text-align: center;
+    list-style: none;
+    
+}
+
+li:hover {
+    background-color: aqua;
+}
+
+li:active {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    

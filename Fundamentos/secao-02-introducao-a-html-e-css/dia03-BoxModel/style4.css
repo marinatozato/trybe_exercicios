@@ -1,0 +1,12 @@
+div:hover {
+   border: 5px solid black;
+   width: 200px;
+   text-align: center;
+}
+
+div {
+   width: 300px;
+   text-align: center;
+
+}
+
