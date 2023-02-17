@@ -33,7 +33,7 @@ ul li:nth-child(-n+3) {
     color: blue;
 }
 
-li 'Java' {
+.pink {
     background-color: pink;
 }
 
