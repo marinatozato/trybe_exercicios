@@ -1,6 +1,6 @@
-let angulo1 = 100;
-let angulo2= 100;
-let angulo3 = 10;
+let angulo1 = 10;
+let angulo2=  90;
+let angulo3 = 80;
 
 let somaDosAngulos = angulo1 + angulo2 + angulo3;
 
@@ -11,9 +11,9 @@ if (angulosPositivos) {
     if (somaDosAngulos === 180) {
         console.log("True");
     } else {
-    console.log("true");
+        console.log("false");
     };
 }
 else {
-    console.log("Erro")
+    console.log("Erro, ângulo negativo")
 }
