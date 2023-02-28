@@ -30,4 +30,14 @@ console.log(soma);
 
 A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.//
 
+
+let mediaAritimetica = 0;
+let soma = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    soma += numbers[index]
+}
+
+console.log(mediaAritimetica = soma / numbers.length);
+
 */
