@@ -24,3 +24,33 @@ if (soma > 15) {
 } else {
     console.log('Valor menor que 16');
 } */
+
+/* Exercício de Loteria na aula do dia 02_JS */
+let loterryNumbers = [];
+let firstGame = [9, 14, 56, 57, 59, 39];
+
+for (let index = 0; index < 6; index += 1) {
+    loterryNumbers.push(Math.ceil(Math.random() * 60));
+}
+
+/* console.log(loterryNumbers);
+console.log(firstGame); */
+
+/* Comparação do Sorteio com o meu jogo*/
+
+let numberOfHits = 0;
+let hits = [];
+
+for (let indexloterry = 0; indexloterry < loterryNumbers.length; indexloterry += 1){
+    for (let indexFirstGame = 0; indexFirstGame < firstGame.length; indexFirstGame += 1) {
+        if (loterryNumbers[indexloterry] === firstGame[indexFirstGame]) {
+            numberOfHits += 1;
+            hits.push(loterryNumbers[indexloterry]);
+        }
+    }
+} 
+/*mostra os resultados*/
+console.log('Números sorteados;', loterryNumbers);
+console.log('Jogo;', firstGame);
+console.log('Quantidade de acertos:', numberOfHits);
+console.log('Número acertados', hits);
