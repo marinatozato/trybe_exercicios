@@ -1,9 +1,10 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+/* Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
+Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2. *
 
 let numbers1 = [];
 
 for (let index = 0; index < 25; index += 1) {
-    numbers1.push(Math.ceil(Math.random() * 25));
     let randomNumber = Math.ceil(Math.random() * 25);
     if (!numbers1.includes(randomNumber)) {
         numbers1.push(randomNumber);
@@ -11,8 +12,9 @@ for (let index = 0; index < 25; index += 1) {
         index -= 1
     }
 }
-console.log(numbers1)
-
+console.log(numbers1);
+*/
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]; */
 
 /* Utilizando for, descubra o menor valor contido no array e imprima-o.
 let smallestNumber = numbers[0];
