@@ -52,4 +52,3 @@ if (numbers % 2 !== 0) {
 console.log(oddNumber);
 
 
-
