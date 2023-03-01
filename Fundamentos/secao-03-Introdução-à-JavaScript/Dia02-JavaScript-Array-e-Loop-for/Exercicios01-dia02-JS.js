@@ -3,6 +3,17 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 
 
+/* Utilizando for, descubra o menor valor contido no array e imprima-o.
+let smallestNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] < smallestNumber) {
+        smallestNumber = numbers[index]
+    }
+}
+console.log(smallestNumber); */
+
+
 /* Descubra quantos valores ímpares existem no array e imprima o resultado. 
 Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 let oddNumber = 0;
