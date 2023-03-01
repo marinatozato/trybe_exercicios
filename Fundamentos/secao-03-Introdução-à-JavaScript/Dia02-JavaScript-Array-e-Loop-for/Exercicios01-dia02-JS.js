@@ -1,6 +1,17 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
+let numbers1 = [];
 
+for (let index = 0; index < 25; index += 1) {
+    numbers1.push(Math.ceil(Math.random() * 25));
+    let randomNumber = Math.ceil(Math.random() * 25);
+    if (!numbers1.includes(randomNumber)) {
+        numbers1.push(randomNumber);
+    } else {
+        index -= 1
+    }
+}
+console.log(numbers1)
 
 
 /* Utilizando for, descubra o menor valor contido no array e imprima-o.
