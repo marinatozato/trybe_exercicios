@@ -30,7 +30,13 @@ let loterryNumbers = [];
 let firstGame = [9, 14, 56, 57, 59, 39];
 
 for (let index = 0; index < 6; index += 1) {
-    loterryNumbers.push(Math.ceil(Math.random() * 60));
+    let randomNumber = Math.ceil((Math.random)() * 60);
+    if(!loterryNumbers.includes(randomNumber)) {
+        loterryNumbers.push(randomNumber);
+    } else {
+        index -= 1;
+    }
+        
 }
 
 /* console.log(loterryNumbers);
