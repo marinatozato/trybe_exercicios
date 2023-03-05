@@ -47,6 +47,12 @@ let order = {
   function orderModifier(order) {
     let novoComprador = order.name = 'Luiz Silva';
     let novoTotal = order.payment.total = 50;
+    let pizzas = Object.keys(order.order.pizza);
+    let drinks = order.order.drinks.coke.type;
+
+    console.log('Olá, ' + novoComprador +  ' o valor total de seu pedido de ' + pizzas[0] + ', ' + pizzas[1] +
+    ', ' + drinks + ', é R$ ' + novoTotal + ',00')
+
 
   }
   
